@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/male"
+android:layout_marginVertical="30dp"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="10dp"
+        android:text="pokemon Tracker" />
+
+    <TextView
+        android:id="@+id/RegisterNewCatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="140dp"
+        android:text="RegisterNewCatch" />
+
+    <TextView
+        android:id="@+id/nationalNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="NationalNum" />
+
+    <EditText
+        android:id="@+id/NationalNum"
+        android:layout_width="196dp"
+        android:layout_height="24dp"
+        android:layout_marginHorizontal="180dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:inputType="text" />
+
+<TextView
+    android:id="@+id/nameLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/nameName"
+        android:layout_width="193dp"
+        android:layout_height="26dp"
+        android:layout_marginHorizontal="180dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:inputType="text" />
+
+<TextView
+    android:id="@+id/speciesLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:text="@string/species" />
+
+    <EditText
+        android:id="@+id/species"
+        android:layout_width="190dp"
+        android:layout_height="27dp"
+        android:layout_marginHorizontal="180dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/genderLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="gender" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="233dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="-40dp">
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="4dp"
+            android:text="female" />
+
+        <RadioButton
+            android:id="@+id/maleRdButton"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="-37.5dp"
+            android:paddingHorizontal="4dp"
+            android:text="Male" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/heightLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="height" />
+
+    <EditText
+        android:id="@+id/heightHeight"
+        android:layout_width="195dp"
+        android:layout_height="29dp"
+        android:layout_marginHorizontal="180dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/weightTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="weight" />
+
+    <EditText
+        android:id="@+id/weightWeight"
+        android:layout_width="190dp"
+        android:layout_height="27dp"
+        android:layout_marginHorizontal="180dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="level" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/baseStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="BaseStats" />
+
+<TextView
+    android:id="@+id/hpTable"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:text="@string/hp" />
+
+    <EditText
+        android:id="@+id/hp"
+        android:layout_width="189dp"
+        android:layout_height="26dp"
+        android:layout_marginHorizontal="180dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:inputType="number" />
+
+<TextView
+    android:id="@+id/attackTable"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:text="@string/attack" />
+
+    <EditText
+        android:id="@+id/attack"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_marginHorizontal="180dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/defense"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_marginHorizontal="180dp"
+        android:ems="10"
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/defenseTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-30dp"
+        android:text="@string/defense" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="114dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="160dp"
+        android:layout_marginVertical="30dp"
+        android:text="@string/reset" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="280dp"
+        android:layout_marginTop="-78dp"
+        android:text="submit" />
+
+</LinearLayout>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/submitTable"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="@string/app_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:text="Kanu the Pokemon is cool"
+        android:textAlignment="center" />
+
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/nationalNumTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_marginLeft="25dp"
+                android:text="nationalNumTable" />
+
+            <EditText
+                android:id="@+id/ntnlNumEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/nameTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="@string/name" />
+            <EditText
+                android:id="@+id/nameEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/speciesTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="@string/species" />
+
+
+            <EditText
+                android:id="@+id/speciesEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/genderTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="25dp"
+                android:layout_marginLeft="20dp"
+                android:text=" Gender" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="280dp"
+                android:layout_height="55dp">
+
+                <RadioButton
+                    android:id="@+id/femaleRdButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingHorizontal="4dp"
+                    android:text="female" />
+
+                <RadioButton
+                    android:id="@+id/male_RB"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="-37.5dp"
+                    android:paddingHorizontal="4dp"
+                    android:text="male" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/heightTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_marginLeft="25dp"
+                android:text="heightTable" />
+
+            <EditText
+                android:id="@+id/heightEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/weightTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_marginLeft="27dp"
+                android:text="weightTable" />
+
+            <EditText
+                android:id="@+id/weightEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                />
+        </TableRow>
+
+        <TableRow android:layout_marginVertical="10dp">
+
+            <TextView
+                android:id="@+id/levelTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:text="LevelTable" />
+
+        </TableRow>
+
+
+    <TextView
+        android:id="@+id/baseStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:text="BaseStats"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/hpTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hp" />
+
+            <EditText
+                android:id="@+id/hpEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/attackTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/attack" />
+
+            <EditText
+                android:id="@+id/attackEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/defenseTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/defense" />
+
+            <EditText
+                android:id="@+id/defenseEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                />
+        </TableRow>
+
+        //
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/resetTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="resetTable" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="submit" />
+
+    </TableRow>
+
+
+</TableLayout>
